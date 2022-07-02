@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 22% 78%;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.left{
+    background-color:#0ea5e9;
+
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 400px 300px;
+    color: #fafaf9;
+}
+
+.dashboard{
+    display: flex;
+    justify-content: center;
+
+}
+.dashboard>h1{
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+.dashboard>img{
+    height:50%;
+    margin: 7%;
+}
+.home{
+    display: flex;
+    justify-content: center;
+}
+.home>img{
+    height: 10%;
+    display: flex   ;
+    margin: 6%;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+}
+.profile>img{
+    display: flex;
+    height: 10%;
+    margin: 7%;
+}
+.up{
+    display: flex;
+    /* margin-left: 50px; */
+}
+.up>img{
+    display: flex;
+    height: 40%;
+margin-top: 5%;}
+
+
+.up>input{
+    margin-top: 6.5%;
+    /* margin-left: 4%; */
+    
+    
+}
+.dp{
+    margin-left: 4%;
+    border-radius: 45%;
+}
+.se{
+    margin-left: 2%;
+    height: 20%;
+}
+.up>button{
+    height: 20%;
+    margin-top: 6%;
+    margin-left: 3%;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+    border: 1px solid #0ea5e9;
+    font-size: larger;
+    background-color: #0ea5e9;
+    
+
+}
+.up>button>span{
+    margin: 2%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    height: 18vh;
+    background-color: 
+    #e5e7eb;
+    ;
+    
+
+
+}
+
+.main{
+    display: flex;
+    height: 82vh;
+    background-color:#fef2f2;
+}
+.content{
+    display: grid;
+    grid-template-columns: 750px 300px;
+    
+    gap:10px;
+    margin: 2%;
+
+}
+.card1{
+    display: grid;
+    justify-content: center;
+    
+    grid-template-columns: repeat(3,210px);
+    grid-template-rows: repeat(3,270px);
+    gap: 20px;
+    height: 80vh;
+}
+.card2{
+    display: grid;
+    grid-template-columns: 270px;
+    grid-template-rows: 320px 320px;
+    gap: 20px;
+    justify-content: center;
+
+}
+.item{
+    
+    margin-top: 20%;
+    text-align: center;
+    justify-content: center;
+    border-left: 5px solid #f87171;
+    border-radius: 5%;
+    background-color:#fafaf9;
+}
+.item:hover{
+    border: 5px solid #f87171;
+}
+.news{
+    margin-top: 18%;
+    background-color:#fafaf9;
+    padding: 5%;
+    border-radius: 10%;
+    overflow: scroll;
+
+
+
+}
+.n1{
+    border-bottom: 1px solid black;
+}
